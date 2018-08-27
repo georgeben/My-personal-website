@@ -1,3 +1,96 @@
-body{
-    background-color: #CCC;
+:root{
+    --mint:#B9D9C3;
+    --toasted:#FBCB7B;
+    --tomato:#EB5E30;
+    --ceramic:#CDCDC0;
+    --navbar-col:#E7717D;
 }
+
+* {
+  box-sizing: border-box
+}
+
+body{
+    background-color: #EEE;
+    
+}
+
+
+/*Navigation Bar*/
+.navbar{
+    background-color: #E7717D;
+}
+
+.navbar-collapse{
+    justify-content: flex-end;
+    margin-right: 2%;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+
+/*Jumbotron*/
+.jumbotron{
+    height: 100vh;
+    background-image: url(../images/header_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron-text{
+    font-size: 2em;
+    text-align: center;
+    color: white;  
+}
+
+.jumbotron-text h1{
+    font-size: 3em;
+    text-transform: uppercase;
+    padding: 10vh;
+}
+
+.jumbotron-text p{
+    font-weight: 600;
+}
+
+/*Social Links*/
+.ul-social{
+    text-align:center;
+    margin: 0;
+    
+}
+
+.ul-social li{
+    list-style: none;
+    display: inline-block;
+}
+
+.social{
+   color: white;
+    font-size: 2.5em;
+    padding: 20px;
+}
+
+.social:hover{
+    color: var(--navbar-col)
+}
+
+/*ARROW LINK*/
+.down-arrow {
+    margin-top: auto;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.down-arrow a{
+    color: #777;
+    font-size: 1.5em;
+}
+
+
+
+
