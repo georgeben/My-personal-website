@@ -21,7 +21,31 @@ body{
 
 /*Navigation Bar*/
 .navbar{
-    background-color: #cb9f77;
+    background-color: #212121;
+    transition: all 0.5s;
+}
+
+.navbar-brand{
+    font-weight: bold;
+    transition: all 0.5s;
+}
+ 
+.navbar-white{
+    background-color: #fefefe;
+    box-shadow: 0px 3px 15px #212121;
+}
+
+.navbrand-dark{
+    color: #212121 !important;
+    font-weight: bold;
+}
+
+.navlink-dark{
+    color: #212121 !important;
+}
+
+.toggler-dark{
+    color: #212121;
 }
 
 .navbar-collapse{
