@@ -90,6 +90,17 @@ body{
     text-align: center;
     margin-top: 100px;
     margin-bottom: 50px;
+    animation: vertical_motion 1s linear infinite;
+}
+
+@keyframes vertical_motion{
+    0% , 100%{
+        margin-top: 100px
+    }
+    
+    50% {
+        margin-top: 150px;
+    }
 }
 
 .down-arrow a{
