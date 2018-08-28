@@ -7,7 +7,7 @@
 }
 
 * {
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 
 body{
@@ -27,6 +27,7 @@ body{
 .navbar-collapse{
     justify-content: flex-end;
     margin-right: 2%;
+    
 }
 
 .navbar-dark .navbar-nav .nav-link{
@@ -99,6 +100,8 @@ body{
 
 /*About Me*/
 .about{
+    margin-bottom: 30px;
+    overflow: hidden;
 }
 
 .about img{
@@ -133,8 +136,10 @@ body{
 
 /*My Services*/
 .services{
-    padding-top: 70px;
-    
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: pink;
+    overflow: hidden;
 }
 
 .service{
@@ -171,8 +176,8 @@ body{
 
 /*My Projects*/
 .projects{
-    margin-top: 30px;
     padding-top: 30px;
+    padding-bottom: 30px;
     background-color: #ccc;
 }
 
@@ -194,7 +199,8 @@ body{
 
 /*My Skills*/
 .skills{
-    
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .skills h3{
@@ -202,7 +208,16 @@ body{
     margin-bottom: 30px;
 }
 
+.skills-row{
+    justify-content: space-between;
+}
 
+.skill-item{
+     padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px #ccc;
+    margin: 20px;
+}
 
 .skills img{
     width: 180px;
