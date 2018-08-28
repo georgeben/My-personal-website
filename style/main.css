@@ -218,9 +218,6 @@ body{
     font-weight: 600;
 }
 
-.skills h3:after{
-    
-}
 
 /*Contact Me*/
 .contact-me{
@@ -241,6 +238,20 @@ body{
 .contact-me textarea{
     resize: none;
     margin-bottom: 10px;
+}
+
+
+/*Footer*/
+footer{
+    background-color: #414141;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer-social{
+    color: white;
+    padding: 20px;
 }
 
 
