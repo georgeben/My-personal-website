@@ -112,6 +112,7 @@ body{
 /*About Me*/
 .about{
     margin-bottom: 30px;
+    justify-content: center;
 }
 
 .about img{
@@ -280,4 +281,42 @@ footer{
 }
 
 
+/*Media Queries*/
+@media(max-width:991px){
+    .about{
+        justify-content: space-between;
+    }
+}
 
+@media(max-width:768px){
+    
+    .about{
+        text-align: center;    
+    }
+    
+    .about img{
+        display: block;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    
+    .project img{
+        display: block;
+        margin: auto;
+    }
+    
+    .project h3{
+        text-align: center;
+        margin-top: 10px;
+        
+    }
+    
+    .skills-row{
+        justify-content: center;
+    }
+    
+    .skill-item{
+        
+    }
+    
+}
