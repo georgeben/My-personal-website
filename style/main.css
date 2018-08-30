@@ -218,7 +218,7 @@ body{
 .projects{
     padding-top: 30px;
     padding-bottom: 30px;
-    background-color: #ced2ae;
+    background-color: #f3f7cd;
 }
 
 
@@ -329,16 +329,23 @@ body{
 
 /*Footer*/
 footer{
-    background-color: #414141;
+    background-color: #212121;
     color: white;
     padding-top: 30px;
     padding-bottom: 30px;
+    text-align: center;
+}
+
+.footer-links{
+    padding-top: 20px;
 }
 
 .footer-social{
     color: white;
     padding: 20px;
 }
+
+
 
 
 /*Media Queries*/
