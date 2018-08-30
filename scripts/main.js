@@ -68,7 +68,7 @@ $(form).submit(function(event){
 //Scroll Reveal
 window.sr = ScrollReveal({ reset: false });
 sr.reveal('.about', { duration: 1000 });
-sr.reveal('.service', { duration: 2000, distance: '50px', }, 50);
+sr.reveal('.service', { duration: 1500, distance: '50px', }, 50);
 sr.reveal('.skill-item', { duration: 2000, distance: '50px', }, 50);
 
 
