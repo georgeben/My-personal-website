@@ -350,7 +350,23 @@ footer{
 
 @media(max-width:768px){
     
+    .jumbotron-text h1{
+        font-size: 1.5em;
+    }
     
+    .jumbotron-text p{
+        font-size: 0.8em;
+    }
+    
+    .social{
+       color: white;
+        font-size: 1.5em;
+        padding: 10px;
+    }
+    
+    ul.ul-social{
+        padding-left: 0;
+    }
     
     .about{
         text-align: center;    
