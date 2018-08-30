@@ -63,7 +63,7 @@ body{
 
 /*Jumbotron*/
 .jumbotron{
-    height: 100vh;
+    height: 650px;
     background-image: url(../images/header_image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -79,7 +79,7 @@ body{
 .jumbotron-text h1{
     font-size: 3em;
     text-transform: uppercase;
-    padding-top: 20vh;
+    padding-top: 150px;
     margin-bottom: 0;
 }
 
@@ -109,27 +109,31 @@ body{
     color: #888;
 }
 
+.typed-cursor {
+    display: none;
+}
+
 /*ARROW LINK*/
 .down-arrow {
     margin-top: auto;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 50px;
     animation: vertical_motion 1s linear infinite;
 }
 
 @keyframes vertical_motion{
     0% , 100%{
-        margin-top: 100px
+        margin-top: 50px
     }
     
     50% {
-        margin-top: 150px;
+        margin-top: 100px;
     }
 }
 
 .down-arrow a{
-    color: #ffffff;
+    color: #fff;
     font-size: 1.5em;
 }
 
@@ -174,7 +178,7 @@ body{
 .services{
     padding-top: 30px;
     padding-bottom: 30px;
-    background-color: pink;
+    background-color: #FFEBC9;
     overflow: hidden;
 }
 
@@ -214,13 +218,14 @@ body{
 .projects{
     padding-top: 30px;
     padding-bottom: 30px;
-    background-color: #ccc;
+    background-color: #ced2ae;
 }
 
 
 .projects h2{
     text-align: center;
     margin-bottom: 30px;
+    color:#212121;
 }
 
 .project{
@@ -344,6 +349,8 @@ footer{
 }
 
 @media(max-width:768px){
+    
+    
     
     .about{
         text-align: center;    

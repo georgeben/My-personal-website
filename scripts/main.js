@@ -70,3 +70,12 @@ window.sr = ScrollReveal({ reset: true });
 sr.reveal('.about', { duration: 1000 });
 sr.reveal('.service', { duration: 2000, distance: '50px', }, 50);
 sr.reveal('.skill-item', { duration: 2000, distance: '50px', }, 50);
+
+
+//Intro text animation
+var options = {
+  strings: ["Hi! I'm Ben.^500", "Nice to meet you."],
+  typeSpeed: 40
+}
+
+var typed = new Typed(".caption", options);
