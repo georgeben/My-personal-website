@@ -67,15 +67,47 @@ $(form).submit(function(event){
 
 //Scroll Reveal
 window.sr = ScrollReveal({ reset: false });
-sr.reveal('.about', { duration: 1000 });
+sr.reveal('.about', { duration: 800 });
 sr.reveal('.service', { duration: 1500, distance: '50px', }, 50);
 sr.reveal('.skill-item', { duration: 2000, distance: '50px', }, 50);
 
 
 //Intro text animation
 var options = {
-  strings: ["Hi! I'm Ben.^500", "Nice to meet you."],
+  strings: ["Hi! I'm Ben.^500 Nice to meet you."],
   typeSpeed: 40
 }
 
 var typed = new Typed(".caption", options);
+
+
+//Scroll
+$("#about-link").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#about").offset().top
+    }, 500);
+});
+
+$("#services-link").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#services").offset().top
+    }, 800);
+});
+
+$("#project-link").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#projects").offset().top
+    }, 800);
+});
+
+$("#skills-link").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#skills").offset().top
+    }, 1000);
+});
+
+$("#contact-link").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#contact").offset().top
+    }, 1000);
+});
