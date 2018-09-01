@@ -388,4 +388,8 @@ footer{
         height: 500px;
     }
     
+    .contact-me form{
+        width: 95%;
+    }
+    
 }
